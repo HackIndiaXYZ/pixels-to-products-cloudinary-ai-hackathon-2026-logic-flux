@@ -159,9 +159,7 @@ Edit `backend/.env` with your Cloudinary and Gemini credentials:
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-GEMINI_API_KEY=your_gemini_api_key
-PORT=8000
-HOST=0.0.0.0
+
 ```
 
 > **Note on Hackathon Demo Mode**: If you do not have Cloudinary or Gemini API keys, leave them as default. EchoLens AI automatically activates its **Interactive Demo Mode** utilizing Cloudinary's public demo CDN and realistic grounded datasets without throwing errors!
@@ -186,37 +184,6 @@ Open `http://localhost:5173` in your browser.
 
 ---
 
-## 8. Hackathon Demo Walkthrough (3-Minute Tour)
-
-For the judges, here are the 3 moments that matter most:
-
-1. **Step 1: Inspect Cloudinary Ingestion & Preview**
-   - Click **Upload Workspace** in the sidebar.
-   - Click **Load 2026 Keynote Demo** or select an MP4 file.
-   - Watch the animated 4-step pipeline: `INGEST → TRANSCRIBE → UNDERSTAND → STRUCTURE`.
-   - Observe the Cloudinary badge: `✓ Media secured on Cloudinary` with public ID `docs/walking_talking`.
-
-2. **Step 2: Experience TruthTrace (The Hero Feature)**
-   - Click **TruthTrace** in the sidebar.
-   - Look at the top video player and the timeline scrubber showing verified claim markers.
-   - Click on the claim: *"AI can reduce repetitive content-production work by up to 73%."*
-   - Click **▶ View Source**: Notice the video automatically seeks to `01:24`, plays the exact moment, and displays the ground-truth evidence flash.
-
-3. **Step 3: Experience the Audience Lens Divergence**
-   - In the top bar or sidebar, click **Audience Lens**.
-   - Select **🎓 Student Lens**: Review structured study notes, flashcards, and try answering the interactive quiz.
-   - Switch to **🎬 Creator Lens**: See how the same video transforms into viral hooks, a 45-second 9:16 vertical script, and Twitter threads.
-   - Switch to **💼 Business Lens**: View bottom-line ROI metrics and the 90-day implementation roadmap.
-
-4. **Step 4: Create Cloudinary Dynamic Short**
-   - Click **Create Short** in the sidebar.
-   - Select the preset **"The 73% Productivity Metric"** and choose aspect ratio **9:16 Vertical**.
-   - Notice the live generated Cloudinary URL using `so_75,eo_105,c_fill,ar_9:16,g_auto`.
-   - Play the derived short video in the phone mockup.
-
-5. **Step 5: Vernacular Localization & Accessibility**
-   - In the top navigation bar, change Language to **Hindi (हिंदी)** or **Marathi (मराठी)**.
-   - Open the **Accessibility** settings dialog in the top bar to toggle Large Text or High Contrast.
 
 ---
 
