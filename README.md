@@ -59,7 +59,64 @@ Built-in contextual localization for **English, Hindi (हिंदी), Marathi
 Custom accessibility controls for Large Text, High Contrast Mode, Simplified Jargon-free Language, and Persistent Timestamp Badges.
 
 ---
+# 🚀 EchoLens AI — Intelligent Content Ecosystem Generator
 
+> **Live Working Demo:** [https://content-transformer.netlify.app](https://content-transformer.netlify.app)
+> **Track:** PS-01 · AI Media Pipelines
+> **Hackathon:** Pixels to Products — Cloudinary AI Hackathon 2026 (HackIndia)
+
+---
+
+## 📌 Problem Statement & Overview
+Creating high-quality, targeted content across multiple platforms and formats requires significant effort. **EchoLens AI** solves this by transforming a single piece of multimedia input (video, audio, webinar, podcast) into a complete, audience-tailored ecosystem.
+
+### Key Features:
+- **Story Graph & Audience Lenses:** Automatically extracts core topics and repackages content for students, creators, businesses, and journalists.
+- **TruthTrace Technology:** Links every summary claim and takeaway directly to its exact source timestamp in the media for complete transparency.
+- **Automated Content Pipeline:** Generates summaries, social posts, study notes, quizzes, and accessibility transformations.
+
+---
+
+## ⚡ Live Demo & Try It Out
+You can test the deployed application directly here:
+👉 **[EchoLens AI Web App](https://content-transformer.netlify.app)**
+
+### How to Test on the Live Site:
+1. Open [https://content-transformer.netlify.app](https://content-transformer.netlify.app).
+2. Upload a audio/video media file or select a sample input.
+3. Observe the automated Cloudinary AI ingestion and transformation workflow.
+4. Explore the generated Audience Lenses and interact with **TruthTrace** timestamps.
+
+---
+
+## ☁️ Cloudinary AI Integration (PS-01 Track)
+Cloudinary serves as the core media intelligence engine behind EchoLens AI:
+- **Media Ingestion & Storage:** Upload API handles seamless multimedia uploads.
+- **AI Processing Pipeline:** Uses Cloudinary AI Skills Pack for auto-tagging, content moderation, and audio/video structure analysis.
+- **Optimization & Delivery:** Utilizes `f_auto` and `q_auto` dynamic transformations for ultra-fast media streaming and responsive delivery across devices.
+
+---
+
+## 🛠️ Local Setup & Installation
+
+If you wish to run the project locally:
+
+```bash
+# Clone the repository
+git clone [https://github.com/HackIndiaXYZ/pixels-to-products-cloudinary-ai-hackathon-2026-logic-flux.git](https://github.com/HackIndiaXYZ/pixels-to-products-cloudinary-ai-hackathon-2026-logic-flux.git)
+
+# Navigate into the project folder
+cd pixels-to-products-cloudinary-ai-hackathon-2026-logic-flux
+
+# Install dependencies
+npm install
+
+# Create environment variables (.env)
+REACT_APP_CLOUDINARY_CLOUD_NAME=your_cloud_name
+REACT_APP_CLOUDINARY_API_KEY=your_api_key
+
+# Start development server
+npm start
 ## 4. Cloudinary Integration
 
 Cloudinary is a genuine, deep architectural pillar of EchoLens AI:
